@@ -55,7 +55,9 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="EngineTests.cs" />
+    <Compile Include="EngineBasicTests.cs" />
+    <Compile Include="EngineMovementTests.cs" />
+    <Compile Include="GameEngineTestsBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

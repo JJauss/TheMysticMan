@@ -26,7 +26,8 @@ namespace TheMysticMan.Logic{
     }
 
     public string GetPosition(int x, int y){
-      return Cells.Where(c => c.X == x && c.Y == y).Select(c => c.Id).Single();
+      Cell cell = Cells.SingleOrDefault(c => c.X == x && c.Y == y);
+      return cell?.Id ?? throw new InvalidPositionException();
     }
 
     public Cell GetPosition(string coordinates){
