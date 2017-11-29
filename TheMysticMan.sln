@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2010
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheMysticMan.Engine", "TheMysticMan.Engine\TheMysticMan.Engine.csproj", "{1B307469-ECA8-4362-8D24-8A2B9ABE2D9F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheMysticMan.Logic", "TheMysticMan.Logic\TheMysticMan.Logic.csproj", "{2F6632F0-A8A8-4156-A9DF-918D220CB23F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheMysticMan.Logic.Tests", "TheMysticMan.Logic.Tests\TheMysticMan.Logic.Tests.csproj", "{93B7AAC0-B47C-4DF5-8B4D-69B90387E093}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1B307469-ECA8-4362-8D24-8A2B9ABE2D9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1B307469-ECA8-4362-8D24-8A2B9ABE2D9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1B307469-ECA8-4362-8D24-8A2B9ABE2D9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1B307469-ECA8-4362-8D24-8A2B9ABE2D9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F6632F0-A8A8-4156-A9DF-918D220CB23F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F6632F0-A8A8-4156-A9DF-918D220CB23F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F6632F0-A8A8-4156-A9DF-918D220CB23F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F6632F0-A8A8-4156-A9DF-918D220CB23F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93B7AAC0-B47C-4DF5-8B4D-69B90387E093}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93B7AAC0-B47C-4DF5-8B4D-69B90387E093}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93B7AAC0-B47C-4DF5-8B4D-69B90387E093}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93B7AAC0-B47C-4DF5-8B4D-69B90387E093}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
